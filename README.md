@@ -5,17 +5,6 @@ Welcome to my Python learning repository! This repository contains my solutions 
 ## Repository Structure
 
 The repository is organized by chapters, with each chapter containing its relevant exercises and solutions.
-Learning-Python/
-├── Chapter-01/
-│ ├── exercise1_1.py
-│ ├── exercise1_2.py
-│ └── ...
-├── Chapter-02/
-│ ├── exercise2_1.py
-│ ├── exercise2_2.py
-│ └── ...
-└── README.md
-
 
 ## How to View and Use Solutions
 
