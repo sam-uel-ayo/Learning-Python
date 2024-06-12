@@ -1,17 +1,20 @@
-# quadratic.py
-# A program that computes the real roots of a quadratic equation.
-# Illustrates use of the math library.
-# Note: this program crashes if the equation has no real roots.
-import math # Makes the math library available.
+# factorial.py
+# Program to compute the factorial of a number
+# Illustrates for loop with an accumulator
 def main():
-    print("This program finds the real solutions to a quadratic")
-    print()
-    
-    a, b, c = eval(input("Please enter the coefficients (a, b, c): "))
-    discRoot = math.sqrt(b * b - 4 * a * c)
-    root1 = (-b + discRoot) / (2 * a)
-    root2 = (-b - discRoot) / (2 * a)
-    
-    print()
-    print("The solutions are:", root1, root2 )
+    n = eval(input("Please enter a whole number: "))
+    fact = 1
+    for factor in range(n,1,-1):
+        fact = fact * factor
+    print("The factorial of", n, "is", fact)
 main()
+
+
+def main():
+    numbers = eval(input("What is number: "))
+    fact = 1
+    while numbers > 1:
+        fact = numbers * fact
+        numbers = numbers - 1
+    print("The factorial is", fact) 
+main() 
